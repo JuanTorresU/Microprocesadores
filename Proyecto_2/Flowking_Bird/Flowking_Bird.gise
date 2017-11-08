@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Flowking_Bird.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ASM1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ASM1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ASM1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ASM1_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ASM1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ASM1_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Game_Box.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Game_Box.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Game_Box.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Game_Box.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Game_Box.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Game_Box.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Game_Box.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Game_Box.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Game_Box_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Game_Box_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Game_Box_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SISTEMA_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SISTEMA_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SISTEMA_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SISTEMA_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lfsr.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="lfsr.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="lfsr.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="lfsr_pkg.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="lfsr_pkg.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="lfsr_pkg.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="proj1pack.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="proj1pack.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="proj1pack.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1509935629" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1509935629">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509936617" xil_pn:in_ck="-7436546231714129510" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1509936617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="../../Xilinx/proj1pack.vhd"/>
+      <outfile xil_pn:name="../Gen_Numeros_Aleatorios/p5a.vhd"/>
+      <outfile xil_pn:name="ASM1.vhd"/>
+      <outfile xil_pn:name="Game_Box.vhd"/>
+      <outfile xil_pn:name="SISTEMA.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1509936617" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5145991392772264597" xil_pn:start_ts="1509936617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509936617" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1767165775053989313" xil_pn:start_ts="1509936617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935630" xil_pn:in_ck="3931658679771938801" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3725017474850290606" xil_pn:start_ts="1509935629">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/Memoria.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/Memoria.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1509936617" xil_pn:in_ck="6836565885933474083" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1509936617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="../../Xilinx/proj1pack.vhd"/>
+      <outfile xil_pn:name="../Gen_Numeros_Aleatorios/p5a.vhd"/>
+      <outfile xil_pn:name="ASM1.vhd"/>
+      <outfile xil_pn:name="Game_Box.vhd"/>
+      <outfile xil_pn:name="SISTEMA.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/Memoria.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1509936619" xil_pn:in_ck="6836565885933474083" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4873209691505152238" xil_pn:start_ts="1509936617">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ASM1_beh.prj"/>
+      <outfile xil_pn:name="ASM1_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1509936620" xil_pn:in_ck="-1222763091013874399" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1659225208969954565" xil_pn:start_ts="1509936619">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ASM1_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935060" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1509935060">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935060" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6257290816033362447" xil_pn:start_ts="1509935060">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935060" xil_pn:in_ck="3931658679771938801" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3725017474850290606" xil_pn:start_ts="1509935060">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/Memoria.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/Memoria.vhd"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935060" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4117542689228224315" xil_pn:start_ts="1509935060">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935060" xil_pn:in_ck="617527916507125888" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1509935060">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1509935060" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4771615810666375900" xil_pn:start_ts="1509935060">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1510109347" xil_pn:in_ck="-6352534860313165909" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-3514474925958833786" xil_pn:start_ts="1510109332">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Game_Box.lso"/>
+      <outfile xil_pn:name="Game_Box.ngc"/>
+      <outfile xil_pn:name="Game_Box.ngr"/>
+      <outfile xil_pn:name="Game_Box.prj"/>
+      <outfile xil_pn:name="Game_Box.syr"/>
+      <outfile xil_pn:name="Game_Box.xst"/>
+      <outfile xil_pn:name="Game_Box_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

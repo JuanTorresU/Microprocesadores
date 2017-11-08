@@ -1,0 +1,6 @@
+vhdl work "ipcore_dir/Memoria.vhd"
+vhdl work "../../Xilinx/proj1pack.vhd"
+vhdl work "../Gen_Numeros_Aleatorios/p5a.vhd"
+vhdl work "ASM1.vhd"
+vhdl work "Game_Box.vhd"
+vhdl work "SISTEMA.vhd"

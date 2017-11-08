@@ -1,0 +1,5 @@
+work	"../../Xilinx/proj1pack.vhd"
+work	"../Gen_Numeros_Aleatorios/p5a.vhd"
+work	"ASM1.vhd"
+work	"Game_Box.vhd"
+work	"ipcore_dir/Memoria.vhd"
