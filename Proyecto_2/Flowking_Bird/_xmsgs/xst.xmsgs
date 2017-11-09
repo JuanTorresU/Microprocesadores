@@ -5,35 +5,94 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 97: Syntax error near &quot;<arg fmt="%s" index="1">:</arg>&quot;.
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 53: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 105: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 50: Assignment to <arg fmt="%s" index="1">y3</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 167: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" Line 19: Net &lt;<arg fmt="%s" index="1">a[2]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 179: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" Line 20: Net &lt;<arg fmt="%s" index="1">b[2]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 185: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 33: Net &lt;<arg fmt="%s" index="1">Random_X[6]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 190: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 34: Net &lt;<arg fmt="%s" index="1">RdirX[6]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 196: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Dir_Graphic</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 201: Syntax error near &quot;<arg fmt="%s" index="1">when</arg>&quot;.
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">Random_X&lt;6&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 203: Syntax error near &quot;<arg fmt="%s" index="1">case</arg>&quot;.
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">Random_Y&lt;6&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="806" delta="new" >"/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 206: Syntax error near &quot;<arg fmt="%s" index="1">process</arg>&quot;.
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RdirX&lt;6&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RvelX&lt;6&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RacX&lt;6&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RdirX&lt;6:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RvelX&lt;6:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RacX&lt;6:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">dat&lt;22:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">a</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">b</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_rgb</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">Game_Box</arg>&gt;: instances &lt;<arg fmt="%s" index="2">PX</arg>&gt;, &lt;<arg fmt="%s" index="3">PY</arg>&gt; of unit &lt;<arg fmt="%s" index="4">lfsr</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">Game_Box</arg>&gt;: instances &lt;<arg fmt="%s" index="2">PX</arg>&gt;, &lt;<arg fmt="%s" index="3">PDir</arg>&gt; of unit &lt;<arg fmt="%s" index="4">lfsr</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">Game_Box</arg>&gt;: instances &lt;<arg fmt="%s" index="2">PX</arg>&gt;, &lt;<arg fmt="%s" index="3">Pvel</arg>&gt; of unit &lt;<arg fmt="%s" index="4">lfsr</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">Game_Box</arg>&gt;: instances &lt;<arg fmt="%s" index="2">PX</arg>&gt;, &lt;<arg fmt="%s" index="3">Pac</arg>&gt; of unit &lt;<arg fmt="%s" index="4">lfsr</arg>&gt; are equivalent, second instance is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">P1/Dir_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Game_Box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P1/Dir_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Game_Box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">P1/Dir_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">Game_Box</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
 </messages>
-

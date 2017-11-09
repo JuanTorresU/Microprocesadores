@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.15 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.15 secs
  
---> 
-Reading design: Game_Box.prj
+--> Reading design: Game_Box.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -111,34 +108,532 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "/home/Lotharius16/Microprocesadores/Flowking_Bird/ipcore_dir/Memoria.vhd" into library work
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ipcore_dir\Memoria.vhd" into library work
 Parsing entity <Memoria>.
 Parsing architecture <Memoria_a> of entity <memoria>.
-Parsing VHDL file "/home/Lotharius16/Xilinx/proj1pack.vhd" into library work
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\lfsr_pkg.vhd" into library work
+Parsing package <lfsr_pkg>.
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\VGA.vhd" into library work
+Parsing entity <VGA>.
+Parsing architecture <Behavioral> of entity <vga>.
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\proj1pack.vhd" into library work
 Parsing package <proj1pack>.
-Parsing VHDL file "/home/Lotharius16/Microprocesadores/Gen_Numeros_Aleatorios/p5a.vhd" into library work
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\p5a.vhd" into library work
 Parsing entity <lfsr>.
 Parsing architecture <rtl> of entity <lfsr>.
-Parsing VHDL file "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" into library work
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" into library work
+Parsing entity <GPU>.
+Parsing architecture <Behavioral> of entity <gpu>.
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" into library work
 Parsing entity <ASM1>.
 Parsing architecture <Behavioral> of entity <asm1>.
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 97: Syntax error near ":".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 105: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 167: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 179: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 185: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 190: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 196: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 201: Syntax error near "when".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 203: Syntax error near "case".
-ERROR:HDLCompiler:806 - "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd" Line 206: Syntax error near "process".
-VHDL file /home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd ignored due to errors
+Parsing VHDL file "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" into library work
+Parsing entity <Game_Box>.
+Parsing architecture <Behavioral> of entity <game_box>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Game_Box> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ASM1> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 53: reset should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 148. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 187. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 50: Assignment to y3 ignored, since the identifier is never used
+
+Elaborating entity <Memoria> (architecture <Memoria_a>) from library <work>.
+
+Elaborating entity <lfsr> (architecture <rtl>) from library <work>.
+
+Elaborating entity <VGA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <GPU> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" Line 19: Net <a[2]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" Line 20: Net <b[2]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 33: Net <Random_X[6]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 34: Net <RdirX[6]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Game_Box>.
+    Related source file is "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd".
+WARNING:Xst:647 - Input <Dir_Graphic> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <Random_X<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <Random_Y<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RdirX<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RvelX<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <RacX<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Game_Box> synthesized.
+
+Synthesizing Unit <ASM1>.
+    Related source file is "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd".
+WARNING:Xst:647 - Input <RdirX<6:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RvelX<6:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RacX<6:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 2-bit register for signal <Vx>.
+    Found 2-bit register for signal <Ax>.
+    Found 3-bit register for signal <Vxi>.
+    Found 3-bit register for signal <Axi>.
+    Found 4-bit register for signal <stF>.
+    Found 7-bit register for signal <X1>.
+    Found 7-bit register for signal <Y1>.
+    Found 3-bit register for signal <Dir>.
+    Found 3-bit register for signal <Vel>.
+    Found 3-bit register for signal <Ac>.
+    Found 1-bit register for signal <Wrr>.
+    Found 1-bit register for signal <Ex>.
+    Found 7-bit register for signal <X3>.
+    Found 7-bit register for signal <X2>.
+    Found 7-bit register for signal <Y2>.
+    Found finite state machine <FSM_0> for signal <stF>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 12                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | st0                                            |
+    | Power Up State     | st0                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 7-bit adder for signal <Data_Input[6]_PWR_11_o_add_22_OUT> created at line 125.
+    Found 7-bit adder for signal <GND_11_o_PWR_11_o_add_33_OUT> created at line 137.
+    Found 7-bit adder for signal <n0205> created at line 138.
+    Found 7-bit adder for signal <Data_Input[13]_PWR_11_o_add_35_OUT> created at line 138.
+    Found 7-bit adder for signal <n0210> created at line 145.
+    Found 7-bit adder for signal <Data_Input[6]_PWR_11_o_add_41_OUT> created at line 145.
+    Found 7-bit adder for signal <n0214> created at line 146.
+    Found 7-bit adder for signal <Data_Input[13]_GND_11_o_add_43_OUT> created at line 146.
+    Found 7-bit adder for signal <X3[6]_PWR_11_o_add_57_OUT> created at line 171.
+    Found 3-bit adder for signal <Vxi[2]_GND_11_o_add_99_OUT> created at line 220.
+    Found 3-bit adder for signal <Axi[2]_GND_11_o_add_105_OUT> created at line 226.
+    Found 7-bit subtractor for signal <GND_11_o_GND_11_o_sub_29_OUT<6:0>> created at line 130.
+    Found 7-bit subtractor for signal <n0200> created at line 0.
+    Found 7-bit subtractor for signal <GND_11_o_GND_11_o_sub_56_OUT<6:0>> created at line 165.
+    Found 7-bit subtractor for signal <GND_11_o_GND_11_o_sub_60_OUT<6:0>> created at line 178.
+    Found 7-bit subtractor for signal <GND_11_o_GND_11_o_sub_62_OUT<6:0>> created at line 183.
+    Found 7-bit subtractor for signal <GND_11_o_GND_11_o_sub_63_OUT<6:0>> created at line 184.
+    Summary:
+	inferred  17 Adder/Subtractor(s).
+	inferred  56 D-type flip-flop(s).
+	inferred  25 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <ASM1> synthesized.
+
+Synthesizing Unit <lfsr>.
+    Related source file is "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\p5a.vhd".
+    Found 6-bit register for signal <count_i>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <lfsr> synthesized.
+
+Synthesizing Unit <VGA>.
+    Related source file is "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\VGA.vhd".
+    Found 10-bit register for signal <vcount>.
+    Found 11-bit register for signal <hcount>.
+    Found 11-bit adder for signal <hcount[10]_GND_14_o_add_1_OUT> created at line 32.
+    Found 10-bit adder for signal <vcount[9]_GND_14_o_add_6_OUT> created at line 48.
+    Found 11-bit comparator greater for signal <PWR_16_o_hcount[10]_LessThan_11_o> created at line 56
+    Found 11-bit comparator greater for signal <hcount[10]_PWR_16_o_LessThan_12_o> created at line 56
+    Found 10-bit comparator greater for signal <GND_14_o_vcount[9]_LessThan_13_o> created at line 57
+    Found 10-bit comparator greater for signal <vcount[9]_GND_14_o_LessThan_14_o> created at line 57
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <VGA> synthesized.
+
+Synthesizing Unit <GPU>.
+    Related source file is "C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd".
+WARNING:Xst:647 - Input <dat<22:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <a> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 4x12-bit Read Only RAM for signal <rgb>
+    Found 11-bit comparator lessequal for signal <n0003> created at line 37
+    Found 11-bit comparator lessequal for signal <n0005> created at line 37
+    Found 10-bit comparator lessequal for signal <n0007> created at line 37
+    Found 10-bit comparator lessequal for signal <n0009> created at line 37
+    Summary:
+	inferred   1 RAM(s).
+	inferred   4 Comparator(s).
+Unit <GPU> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x12-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 19
+ 10-bit adder                                          : 1
+ 11-bit adder                                          : 1
+ 3-bit adder                                           : 2
+ 7-bit adder                                           : 9
+ 7-bit subtractor                                      : 6
+# Registers                                            : 21
+ 1-bit register                                        : 2
+ 10-bit register                                       : 1
+ 11-bit register                                       : 1
+ 2-bit register                                        : 2
+ 3-bit register                                        : 5
+ 6-bit register                                        : 5
+ 7-bit register                                        : 5
+# Comparators                                          : 8
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greater                             : 2
+ 11-bit comparator lessequal                           : 2
+# Multiplexers                                         : 27
+ 10-bit 2-to-1 multiplexer                             : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 4
+ 7-bit 2-to-1 multiplexer                              : 21
+# FSMs                                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+Reading core <ipcore_dir/Memoria.ngc>.
+Loading core <Memoria> for timing and area information for instance <P2>.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+
+Synthesizing (advanced) Unit <ASM1>.
+The following registers are absorbed into counter <Vxi>: 1 register on signal <Vxi>.
+The following registers are absorbed into counter <Axi>: 1 register on signal <Axi>.
+Unit <ASM1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <GPU>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_rgb> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 12-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(c,dat)>       |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <rgb>           |          |
+    -----------------------------------------------------------------------
+Unit <GPU> synthesized (advanced).
+
+Synthesizing (advanced) Unit <VGA>.
+The following registers are absorbed into counter <hcount>: 1 register on signal <hcount>.
+The following registers are absorbed into counter <vcount>: 1 register on signal <vcount>.
+Unit <VGA> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x12-bit single-port distributed Read Only RAM        : 1
+# Adders/Subtractors                                   : 15
+ 7-bit adder                                           : 9
+ 7-bit subtractor                                      : 6
+# Counters                                             : 4
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+# Registers                                            : 80
+ Flip-Flops                                            : 80
+# Comparators                                          : 8
+ 10-bit comparator greater                             : 2
+ 10-bit comparator lessequal                           : 2
+ 11-bit comparator greater                             : 2
+ 11-bit comparator lessequal                           : 2
+# Multiplexers                                         : 37
+ 1-bit 2-to-1 multiplexer                              : 14
+ 3-bit 2-to-1 multiplexer                              : 4
+ 7-bit 2-to-1 multiplexer                              : 19
+# FSMs                                                 : 1
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <Game_Box>: instances <PX>, <PY> of unit <lfsr> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Game_Box>: instances <PX>, <PDir> of unit <lfsr> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Game_Box>: instances <PX>, <Pvel> of unit <lfsr> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Game_Box>: instances <PX>, <Pac> of unit <lfsr> are equivalent, second instance is removed
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <P1/FSM_0> on signal <stF[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ st0   | 0000
+ st1   | 0001
+ st2   | 0010
+ st3   | 0011
+ st4   | 0100
+ st5   | 0101
+ st6   | 0110
+ st7   | 0111
+ st8   | 1000
+ st9   | 1001
+-------------------
+
+Optimizing unit <Game_Box> ...
+
+Optimizing unit <ASM1> ...
+
+Optimizing unit <lfsr> ...
+
+Optimizing unit <VGA> ...
+WARNING:Xst:1710 - FF/Latch <P1/Dir_2> (without init value) has a constant value of 0 in block <Game_Box>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <P1/Dir_1> (without init value) has a constant value of 0 in block <Game_Box>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <P1/Dir_0> (without init value) has a constant value of 0 in block <Game_Box>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Game_Box, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 84
+ Flip-Flops                                            : 84
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Game_Box.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2418
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 2
+#      LUT2                        : 17
+#      LUT3                        : 45
+#      LUT4                        : 15
+#      LUT5                        : 33
+#      LUT6                        : 2213
+#      MUXCY                       : 19
+#      MUXF7                       : 49
+#      XORCY                       : 21
+# FlipFlops/Latches                : 132
+#      FD                          : 48
+#      FDC                         : 19
+#      FDCE                        : 22
+#      FDE                         : 43
+# RAMS                             : 3072
+#      RAM128X1D                   : 3072
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 9
+#      OBUF                        : 14
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             132  out of  126800     0%  
+ Number of Slice LUTs:                14616  out of  63400    23%  
+    Number used as Logic:              2328  out of  63400     3%  
+    Number used as Memory:            12288  out of  19000    64%  
+       Number used as RAM:            12288
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:  14628
+   Number with an unused Flip Flop:   14496  out of  14628    99%  
+   Number with an unused LUT:            12  out of  14628     0%  
+   Number of fully used LUT-FF pairs:   120  out of  14628     0%  
+   Number of unique control sets:        15
+
+IO Utilization: 
+ Number of IOs:                          62
+ Number of bonded IOBs:                  24  out of    210    11%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 3204  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.549ns (Maximum Frequency: 180.212MHz)
+   Minimum input arrival time before clock: 1.961ns
+   Maximum output required time after clock: 5.134ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.549ns (frequency: 180.212MHz)
+  Total number of paths / destination ports: 89881 / 27451
+-------------------------------------------------------------------------
+Delay:               5.549ns (Levels of Logic = 9)
+  Source:            VGA_U/vcount_1 (FF)
+  Destination:       P1/Y2_4 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: VGA_U/vcount_1 to P1/Y2_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q           772   0.361   0.980  VGA_U/vcount_1 (VGA_U/vcount_1)
+     begin scope: 'P2:dpra<8>'
+     LUT6:I0->O            1   0.097   0.616  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_134 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_134)
+     LUT6:I2->O            1   0.097   0.616  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_81 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_81)
+     LUT6:I2->O            1   0.097   0.000  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_3 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_3)
+     MUXF7:I1->O           9   0.279   0.616  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX31_2_f7 (dpo<7>)
+     end scope: 'P2:dpo<7>'
+     LUT6:I3->O            5   0.097   0.378  P1/Madd_Data_Input[13]_GND_11_o_add_43_OUT_cy<2>11 (P1/Madd_Data_Input[13]_GND_11_o_add_43_OUT_cy<2>)
+     LUT2:I1->O            2   0.097   0.576  P1/Madd_Data_Input[13]_GND_11_o_add_43_OUT_cy<3>11 (P1/Madd_Data_Input[13]_GND_11_o_add_43_OUT_cy<3>)
+     LUT6:I3->O            1   0.097   0.439  P1/Mmux_stF[3]_X_11_o_wide_mux_74_OUT103 (P1/Mmux_stF[3]_X_11_o_wide_mux_74_OUT102)
+     LUT5:I3->O            1   0.097   0.000  P1/Mmux_stF[3]_X_11_o_wide_mux_74_OUT105 (P1/stF[3]_X_11_o_wide_mux_74_OUT<4>)
+     FDE:D                     0.008          P1/Y2_4
+    ----------------------------------------
+    Total                      5.549ns (1.327ns logic, 4.222ns route)
+                                       (23.9% logic, 76.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 133 / 97
+-------------------------------------------------------------------------
+Offset:              1.961ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       P1/Ac_2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to P1/Ac_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            49   0.001   0.572  reset_IBUF (reset_IBUF)
+     LUT3:I1->O            2   0.097   0.748  P1/_n0390_inv1 (P1/_n0363_inv1)
+     LUT5:I0->O            3   0.097   0.351  P1/_n0363_inv3 (P1/_n0363_inv)
+     FDE:CE                    0.095          P1/Vel_0
+    ----------------------------------------
+    Total                      1.961ns (0.290ns logic, 1.671ns route)
+                                       (14.8% logic, 85.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 901 / 6
+-------------------------------------------------------------------------
+Offset:              5.134ns (Levels of Logic = 7)
+  Source:            P2/U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/Mram_ram3051 (RAM)
+  Destination:       rgb<11> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: P2/U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/Mram_ram3051 to rgb<11>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM128X1D:WCLK->SPO    1   1.504   0.616  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/Mram_ram3051 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/N6230)
+     LUT6:I2->O            1   0.097   0.616  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_134 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_134)
+     LUT6:I2->O            1   0.097   0.616  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_81 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_81)
+     LUT6:I2->O            1   0.097   0.000  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_3 (U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_3)
+     MUXF7:I1->O           2   0.279   0.758  U0/xst_options.dist_mem_inst/gen_dp_ram.dpram_inst/inst_LPM_MUX23_2_f7 (spo<23>)
+     end scope: 'P2:spo<23>'
+     LUT6:I0->O            4   0.097   0.356  rgb<11> (rgb_11_OBUF)
+     OBUF:I->O                 0.000          rgb_11_OBUF (rgb<11>)
+    ----------------------------------------
+    Total                      5.134ns (2.171ns logic, 2.963ns route)
+                                       (42.3% logic, 57.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.549|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 129.00 secs
+Total CPU time to Xst completion: 129.56 secs
+ 
 --> 
 
+Total memory usage is 889900 kilobytes
 
-Total memory usage is 345892 kilobytes
-
-Number of errors   :   10 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   28 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
 

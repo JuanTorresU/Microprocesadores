@@ -1,6 +1,0 @@
-vhdl isim_temp "ipcore_dir/Memoria.vhd"
-vhdl isim_temp "../../Xilinx/proj1pack.vhd"
-vhdl isim_temp "../Gen_Numeros_Aleatorios/p5a.vhd"
-vhdl isim_temp "ASM1.vhd"
-vhdl isim_temp "Game_Box.vhd"
-vhdl isim_temp "SISTEMA.vhd"

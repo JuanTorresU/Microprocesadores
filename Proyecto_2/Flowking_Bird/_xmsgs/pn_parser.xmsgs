@@ -8,55 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">97</arg>. <arg fmt="%s" index="3">Syntax error near &quot;:&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">105</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">167</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">179</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">185</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">190</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">196</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">201</arg>. <arg fmt="%s" index="3">Syntax error near &quot;when&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">203</arg>. <arg fmt="%s" index="3">Syntax error near &quot;case&quot;.</arg>
-</msg>
-
-<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1.vhd</arg>&quot; Line <arg fmt="%d" index="2">206</arg>. <arg fmt="%s" index="3">Syntax error near &quot;process&quot;.</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Microprocesadores/Flowking_Bird/Game_Box.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Microprocesadores/Gen_Numeros_Aleatorios/p5a.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Microprocesadores/Proyecto_1/PROYECTO/GPU.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Microprocesadores/Proyecto_1/PROYECTO/VGA.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Microprocesadores/Proyecto_1/PROYECTO/int.vhd&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/Lotharius16/Xilinx/proj1pack.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/juano/Documents/GitHub/Microprocesadores/Proyecto_2/Flowking_Bird/p5a.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
