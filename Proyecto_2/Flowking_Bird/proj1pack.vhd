@@ -26,42 +26,19 @@ component VGA is
 			  );
 end component;
 
-component int IS
-	Port (
-	clk : in STD_LOGIC;
-	reset : in STD_LOGIC;
-	dir: in STD_LOGIC_VECTOR(13 downto 0);
-	dat : out STD_LOGIC_VECTOR(3 downto 0));
-END component;
-
-
-component mem IS
-	port (
-	clka: in std_logic;
-	addra: in std_logic_vector(13 downto 0);
-	douta: out std_logic_vector(3 downto 0));
-END component;
-
-component mem2 IS
-	port (
-	clka: in std_logic;
-	addra: in std_logic_vector(13 downto 0);
-	douta: out std_logic_vector(3 downto 0));
-END component;
 
 component ASM1 is 
 	port(
    clk,reset : in std_logic;
 	SetUp : in std_logic;
 	Go : in std_logic;
-	Random_X,Random_Y : in std_logic_vector(6 downto 0);
+	Random: in std_logic_vector(6 downto 0);
 	inicio : in std_logic;
-   RdirX,RvelX,RacX : std_logic_vector(6 downto 0);
-	Data_Input : in std_logic_vector(23 downto 0);
 	Vel_I1,Vel_I2 : in std_logic;
 	Ac_I1,Ac_I2 : in std_logic;
-	XYdir : out Std_logic_vector(13 downto 0);
-	Data_Out : out std_logic_vector(23 downto 0);
+	XYdir : inout Std_logic_vector(13 downto 0);
+	Data_Out : inout std_logic_vector(23 downto 0);
+	Data_In : inout std_logic_vector(23 downto 0);
 	Wr : out std_logic);
 end component;
 						 

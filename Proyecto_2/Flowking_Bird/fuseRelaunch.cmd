@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1_isim_beh.exe" -prj "/home/Lotharius16/Microprocesadores/Flowking_Bird/ASM1_beh.prj" "work.ASM1" 

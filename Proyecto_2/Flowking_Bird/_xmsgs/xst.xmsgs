@@ -5,25 +5,13 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="92" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 53: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
-</msg>
-
 <msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\ASM1.vhd" Line 50: Assignment to <arg fmt="%s" index="1">y3</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" Line 19: Net &lt;<arg fmt="%s" index="1">a[2]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 32: Net &lt;<arg fmt="%s" index="1">Random_X[6]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\GPU.vhd" Line 20: Net &lt;<arg fmt="%s" index="1">b[2]</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 33: Net &lt;<arg fmt="%s" index="1">Random_X[6]</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 34: Net &lt;<arg fmt="%s" index="1">RdirX[6]</arg>&gt; does not have a driver.
-</msg>
-
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Dir_Graphic</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Users\juano\Documents\GitHub\Microprocesadores\Proyecto_2\Flowking_Bird\Game_Box.vhd" Line 33: Net &lt;<arg fmt="%s" index="1">RdirX[6]</arg>&gt; does not have a driver.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">Random_X&lt;6&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -57,12 +45,6 @@
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-</msg>
-
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">a</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
-</msg>
-
-<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">b</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
 <msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.

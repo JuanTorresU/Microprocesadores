@@ -14,11 +14,13 @@ port(
 	Ac_I1,Ac_I2 : 					in std_logic;
 	enable : 						in std_logic;
 	rgb : 							out std_logic_vector (11 downto 0);
+	Data :			 				out std_logic_vector(23 downto 0);
 	vsync :                    out std_logic;
    hsync :                    out std_logic);  
 end Game_Box;
 
 architecture Behavioral of Game_Box is
+signal Data_In :			 	std_logic_vector(23 downto 0);
 
 signal Data_Input :			 	std_logic_vector(23 downto 0);
 signal Data_Out : 				std_logic_vector(23 downto 0);
@@ -32,7 +34,7 @@ signal Random_X,Random_Y : 	std_logic_vector(6 downto 0);
 signal RdirX,RvelX,RacX : 		std_logic_vector(6 downto 0);
 signal Wr : 						std_logic;
 begin
-
+Data <= Data_Out;
 
 P1: ASM1 port map(
 	clk			=>clk,
@@ -42,7 +44,7 @@ P1: ASM1 port map(
 	XYdir 		=>XYdir,
 	Wr				=>Wr,
 	Data_Out		=>Data_Out,
-	Data_Input	=>Data_Input,
+	Data_In		=>Data_In,
 	Vel_I1		=>Vel_I1,
 	Vel_I2		=>Vel_I2, 
 	Ac_I1			=>Ac_I1,

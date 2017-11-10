@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Proyectos ISE/Proyecto2/sim_isim_beh.exe -prj C:/Proyectos ISE/Proyecto2/sim_beh.prj work.sim 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/../../Users/juano/Documents/GitHub/Microprocesadores/Proyecto_2/Flowking_Bird/ipcore_dir/Memoria.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/lfsr_pkg.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/VGA.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/proj1pack.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/p5a.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/GPU.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/ASM1.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/Game_Box.vhd" into library work
+Parsing VHDL file "C:/Proyectos ISE/Proyecto2/sim.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package numeric_std
+Compiling package lfsr_pkg
+Compiling package proj1pack
+Compiling architecture behavioral of entity ASM1 [asm1_default]
+Compiling architecture behavioral of entity dist_mem_gen_v7_2 [\dist_mem_gen_v7_2("artix7",14,"...]
+Compiling architecture memoria_a of entity Memoria [memoria_default]
+Compiling architecture behavioral of entity VGA [vga_default]
+Compiling architecture behavioral of entity GPU [gpu_default]
+Compiling architecture rtl of entity lfsr [lfsr_default]
+Compiling architecture behavioral of entity Game_Box [game_box_default]
+Compiling architecture behavior of entity sim
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable C:/Proyectos ISE/Proyecto2/sim_isim_beh.exe
+Fuse Memory Usage: 83772 KB
+Fuse CPU Usage: 1593 ms

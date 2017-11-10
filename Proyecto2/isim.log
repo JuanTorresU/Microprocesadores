@@ -1,0 +1,33 @@
+ISim log file
+Running: C:\Proyectos ISE\Proyecto2\sim_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Proyectos ISE/Proyecto2/sim_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /sim/uut/P1/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /sim/uut/P2/U0/ : Warning: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Finished circuit initialization process.
+at 0 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 10 ns(4), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 370 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 370 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 370100 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 370100 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 470 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 470 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 470100 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 470100 ps, Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 530 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 530 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 590 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 590 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 650 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 650 ns(1), Instance /sim/uut/P2/U0/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# isim force add /sim/uut/PX/count_i 30 -radix unsigned
+# run all
+Stopped at time : 9779390 ns : File "C:/Proyectos ISE/Proyecto2/VGA.vhd" Line 32

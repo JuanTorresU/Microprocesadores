@@ -6,8 +6,7 @@ USE IEEE.STD_LOGIC_ARITH.ALL;
 entity ASM1 is
    port(
 	Data_Input : 						in std_logic_vector(23 downto 0);
-   RdirX, RvelX, RacX :				in std_logic_vector(6 downto 0);
-	Random_X, Random_Y : 			in std_logic_vector(6 downto 0);
+	Random: 								in std_logic_vector(6 downto 0);
    clk, reset : 						in std_logic;
 	SetUp : 								in std_logic;
 	Go : 									in std_logic;
@@ -47,7 +46,7 @@ XYdir 		<=Y1&X1;
 Wr 			<=Wrr;
 
 ------------ 
-process(clk,Inicio,Data_Input,SetUp,Go,Axi,Vxi)
+process(clk,Inicio,Data_Input,SetUp,Go,Axi,Vxi,reset)
 begin 
    
 	if reset = '1' then
