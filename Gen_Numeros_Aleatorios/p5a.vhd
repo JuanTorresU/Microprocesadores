@@ -14,7 +14,6 @@ entity lfsr is
   port (
     reset  : in  std_logic;
     clk    : in  std_logic; 
-    enable : in  std_logic;                    		 -- Enable counting	
     count  : out std_logic_vector (LFSR_W-1 downto 0) -- lfsr output
   );
 end entity;
@@ -22,9 +21,10 @@ end entity;
 architecture rtl of lfsr is
     signal count_i    	: std_logic_vector (LFSR_W-1 downto 0);
     signal feedback 	: std_logic;
+	 signal enable: std_logic;
 
 begin
-
+enable<='1';
     feedback <= not(count_i(LFSR_W-1) xor count_i(LFSR_W-5));		-- LFSR size 9
 
     process (reset, clk) 
